@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "packId": "tbs-lpdp-pack",
+  "packVersion": 1,
+  "nama": "TBS LPDP Standar 2026",
+  "kategori": {
+    "id": "tbs-lpdp",
+    "nama": "TBS LPDP"
+  },
+  "tes": [
+    {
+      "id": "tbs-lpdp-1",
+      "nama": "Simulasi TBS LPDP 1",
+      "subtes": [
+        {
+          "id": "tbs-lpdp-1.verbal",
+          "nama": "Penalaran Verbal",
+          "durasiMenit": 3,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tbs-lpdp-1.verbal.q001",
+              "teks": "ABOLISI : PENGAMPUNAN =",
+              "opsi": {
+                "A": "Grasi : Pengurangan hukuman",
+                "B": "Amnesti : Pengampunan pajak",
+                "C": "Vonis : Ketetapan hakim",
+                "D": "Kasasi : Peninjauan kembali",
+                "E": "Tuntutan : Pengadilan"
+              },
+              "jawabanBenar": "A",
+              "pembahasan": "Abolisi adalah peniadaan atau penghapusan peristiwa pidana (pengampunan), sepadan dengan Grasi sebagai pengampunan berupa keringanan atau perubahan hukuman."
+            },
+            {
+              "id": "tbs-lpdp-1.verbal.q002",
+              "teks": "EPIGON >< ...",
+              "opsi": {
+                "A": "Pelopor",
+                "B": "Peniru",
+                "C": "Pengikut",
+                "D": "Penerus",
+                "E": "Penjiplak"
+              },
+              "jawabanBenar": "A",
+              "pembahasan": "Epigon artinya orang yang meniru atau mengikuti jejak tokoh sebelumnya. Lawan katanya adalah Pelopor."
+            },
+            {
+              "id": "tbs-lpdp-1.verbal.q003",
+              "teks": "KAPAL : BURITAN = BURUNG : ...",
+              "opsi": {
+                "A": "Sayap",
+                "B": "Ekor",
+                "C": "Paruh",
+                "D": "Bulu",
+                "E": "Kaki"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Buritan merupakan bagian belakang kapal, sebagaimana ekor merupakan bagian belakang burung."
+            },
+            {
+              "id": "tbs-lpdp-1.verbal.q004",
+              "teks": "Semua cendekiawan gemar membaca. Sebagian dosen adalah cendekiawan. Kesimpulannya:",
+              "opsi": {
+                "A": "Semua dosen gemar membaca",
+                "B": "Sebagian dosen gemar membaca",
+                "C": "Dosen bukan cendekiawan",
+                "D": "Semua yang gemar membaca adalah dosen",
+                "E": "Tidak dapat ditarik kesimpulan"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Karena sebagian dosen adalah cendekiawan dan seluruh cendekiawan gemar membaca, maka sebagian dosen pasti gemar membaca."
+            },
+            {
+              "id": "tbs-lpdp-1.verbal.q005",
+              "teks": "TENTATIF bermakna sama dengan...",
+              "opsi": {
+                "A": "Pasti",
+                "B": "Sementara",
+                "C": "Ketat",
+                "D": "Lengkap",
+                "E": "Baku"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Tentatif berarti belum pasti atau masih dapat berubah (bersifat sementara)."
+            }
+          ]
+        },
+        {
+          "id": "tbs-lpdp-1.kuantitatif",
+          "nama": "Penalaran Kuantitatif",
+          "durasiMenit": 3,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tbs-lpdp-1.kuant.q001",
+              "teks": "Deret: 3, 6, 12, 24, 48, ... Nilai suku berikutnya adalah:",
+              "opsi": {
+                "A": "72",
+                "B": "84",
+                "C": "96",
+                "D": "108",
+                "E": "120"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "Pola deret adalah perkalian 2: 48 * 2 = 96."
+            },
+            {
+              "id": "tbs-lpdp-1.kuant.q002",
+              "teks": "Jika x = 25% dari 80 dan y = 20% dari 100, maka hubungan x dan y adalah:",
+              "opsi": {
+                "A": "x > y",
+                "B": "x < y",
+                "C": "x = y",
+                "D": "x = 2y",
+                "E": "Hubungan tidak dapat ditentukan"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "x = 0.25 * 80 = 20. y = 0.20 * 100 = 20. Maka x = y."
+            },
+            {
+              "id": "tbs-lpdp-1.kuant.q003",
+              "teks": "Sebuah mobil menempuh jarak 150 km dalam 2,5 jam. Berapa kecepatan rata-rata mobil tersebut?",
+              "opsi": {
+                "A": "50 km/jam",
+                "B": "60 km/jam",
+                "C": "65 km/jam",
+                "D": "70 km/jam",
+                "E": "75 km/jam"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Kecepatan = Jarak / Waktu = 150 / 2.5 = 60 km/jam."
+            },
+            {
+              "id": "tbs-lpdp-1.kuant.q004",
+              "teks": "Jika 3a + 5 = 20, maka nilai dari 6a - 2 adalah:",
+              "opsi": {
+                "A": "26",
+                "B": "28",
+                "C": "30",
+                "D": "32",
+                "E": "34"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "3a = 15 -> a = 5. Maka 6a - 2 = 6(5) - 2 = 30 - 2 = 28."
+            },
+            {
+              "id": "tbs-lpdp-1.kuant.q005",
+              "teks": "Rata-rata dari nilai 7, 8, 9, x, 6 adalah 8. Berapakah nilai x?",
+              "opsi": {
+                "A": "8",
+                "B": "9",
+                "C": "10",
+                "D": "11",
+                "E": "12"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "(7 + 8 + 9 + x + 6) / 5 = 8 -> 30 + x = 40 -> x = 10."
+            }
+          ]
+        },
+        {
+          "id": "tbs-lpdp-1.pemecahan_masalah",
+          "nama": "Pemecahan Masalah",
+          "durasiMenit": 3,
+          "stimulus": [
+            {
+              "id": "tbs-lpdp-1.pm.stim01",
+              "judul": "Transisi Energi Hijau di Kawasan Asia Tenggara",
+              "isi": "Transisi menuju energi hijau di Asia Tenggara menjadi salah satu isu krusial dalam agenda mitigasi krisis iklim global. Kawasan ini menghadapi dilema klasik antara kebutuhan mempertahankan pertumbuhan ekonomi berbasis energi fosil yang murah dan komitmen mereduksi emisi karbon demi keberlanjutan lingkungan hidup jangka panjang.\n\nSebagian besar negara anggota ASEAN masih sangat bergantung pada batu bara sebagai sumber pembangkit listrik utama. Meskipun investasi pada pembangkit listrik tenaga surya dan bayu mulai bertumbuh, ketiadaan infrastruktur transmisi jaringan cerdas (smart grid) regional sering kali menjadi kendala teknis dalam menyalurkan listrik ramah lingkungan tersebut secara stabil.\n\nDi samping kendala teknis, skema pendanaan hijau juga belum terdistribusi merata ke negara-negara berkembang. Lembaga keuangan internasional kerap mensyaratkan regulasi tarif listrik yang stabil dan transparansi kebijakan energi nasional sebelum mengucurkan pinjaman berbunga rendah untuk proyek energi baru terbarukan (EBT).\n\nOleh karena itu, diperlukan integrasi kebijakan lintas batas serta harmonisasi kerangka regulasi pasar listrik regional. Tanpa kolaborasi strategis antara sektor publik dan swasta, ambisi mencapai target nol emisi bersih pada pertengahan abad ini akan sulit terealisasi."
+            }
+          ],
+          "soal": [
+            {
+              "id": "tbs-lpdp-1.pm.q001",
+              "stimulusId": "tbs-lpdp-1.pm.stim01",
+              "teks": "Berdasarkan wacana, apa tantangan teknis utama dalam pemanfaatan energi surya dan bayu di ASEAN?",
+              "opsi": {
+                "A": "Tingginya harga panel surya di pasar lokal",
+                "B": "Belum memadainya jaringan transmisi listrik cerdas regional",
+                "C": "Penolakan masyarakat terhadap pembangkit ramah lingkungan",
+                "D": "Ketiadaan tenaga ahli di bidang energi terbarukan",
+                "E": "Ketiadaan sumber daya angin dan sinar matahari yang cukup"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Paragraf kedua menyebutkan bahwa ketiadaan infrastruktur transmisi jaringan cerdas (smart grid) regional menjadi kendala teknis utama."
+            },
+            {
+              "id": "tbs-lpdp-1.pm.q002",
+              "stimulusId": "tbs-lpdp-1.pm.stim01",
+              "teks": "Apa prasyarat yang umumnya diajukan lembaga keuangan internasional untuk pendanaan hijau?",
+              "opsi": {
+                "A": "Penutupan seluruh pembangkit batu bara secara seketika",
+                "B": "Penurunan suku bunga pinjaman komersial perbankan lokal",
+                "C": "Stabilitas regulasi tarif dan transparansi kebijakan energi nasional",
+                "D": "Penyediaan subsidi penuh bagi perusahaan energi swasta",
+                "E": "Pemberlakuan pajak karbon tertinggi di kawasan"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "Paragraf ketiga menjelaskan bahwa lembaga internasional mensyaratkan regulasi tarif listrik yang stabil dan transparansi kebijakan nasional."
+            },
+            {
+              "id": "tbs-lpdp-1.pm.q003",
+              "stimulusId": "tbs-lpdp-1.pm.stim01",
+              "teks": "Kesimpulan yang paling tepat mewakili paragraf terakhir wacana adalah:",
+              "opsi": {
+                "A": "Energi fosil harus tetap menjadi tumpuan tunggal negara berkembang",
+                "B": "Target nol emisi mustahil dicapai oleh kawasan Asia Tenggara",
+                "C": "Harmonisasi regulasi dan kemitraan publik-swasta esensial untuk transisi energi",
+                "D": "Sektor swasta harus menanggung seluruh pembiayaan energi hijau",
+                "E": "Pasar listrik domestik tidak memerlukan intervensi internasional"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "Paragraf terakhir menekankan pentingnya integrasi kebijakan, harmonisasi regulasi, dan kolaborasi sektor publik dan swasta."
+            },
+            {
+              "id": "tbs-lpdp-1.pm.q004",
+              "teks": "Sebuah tim proyek memiliki 5 anggota: A, B, C, D, dan E. A harus bekerja bersama B. C tidak boleh satu kelompok dengan D. Jika dipilih 3 orang dan D terpilih, maka susunan yang valid adalah:",
+              "opsi": {
+                "A": "A, B, D",
+                "B": "C, D, E",
+                "C": "B, C, D",
+                "D": "A, C, D",
+                "E": "B, D, E"
+              },
+              "jawabanBenar": "A",
+              "pembahasan": "Karena D terpilih, maka C tidak boleh ikut (C dan D terpisah). Jika A terpilih, B harus ikut (A dan B selalu bersama). Kombinasi A, B, D memenuhi seluruh syarat."
+            },
+            {
+              "id": "tbs-lpdp-1.pm.q005",
+              "teks": "Dalam sistem antrean rumah sakit, pasien darurat mendapat prioritas tertinggi, disusul lansia, lalu pasien umum. Jika pasien umum datang lebih dulu dari pasien lansia namun setelah pasien darurat, urutan penanganan adalah:",
+              "opsi": {
+                "A": "Umum, Lansia, Darurat",
+                "B": "Darurat, Lansia, Umum",
+                "C": "Lansia, Darurat, Umum",
+                "D": "Darurat, Umum, Lansia",
+                "E": "Umum, Darurat, Lansia"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Prioritas sistem pelayanan: Darurat > Lansia > Umum, terlepas dari waktu kedatangan pasien umum mendahului lansia."
+            },
+            {
+              "id": "tbs-lpdp-1.pm.q006",
+              "teks": "Perusahaan merencanakan penghematan anggaran. Opsi terbaik dengan dampak operasional minimal adalah:",
+              "opsi": {
+                "A": "Memangkas biaya riset produk utama",
+                "B": "Mengurangi efisiensi penggunaan listrik kantor dan perjalanan dinas non-esensial",
+                "C": "Menunda pembayaran gaji karyawan",
+                "D": "Menutup kantor cabang yang paling ramai",
+                "E": "Menghentikan layanan bantuan pelanggan"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Efisiensi utilitas kantor dan reduksi perjalanan dinas non-esensial adalah strategi rasional tanpa mengorbankan inti operasional bisnis."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tbs-lpdp-2",
+      "nama": "Simulasi TBS LPDP 2",
+      "subtes": [
+        {
+          "id": "tbs-lpdp-2.verbal",
+          "nama": "Penalaran Verbal",
+          "durasiMenit": 3,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tbs-lpdp-2.verbal.q001",
+              "teks": "INSINUASI = ...",
+              "opsi": {
+                "A": "Sindirian",
+                "B": "Pujian",
+                "C": "Dorongan",
+                "D": "Tuduhan langsung",
+                "E": "Perjanjian"
+              },
+              "jawabanBenar": "A",
+              "pembahasan": "Insinuasi adalah tuduhan tersembunyi, sindiran, atau bisikan secara tidak langsung."
+            },
+            {
+              "id": "tbs-lpdp-2.verbal.q002",
+              "teks": "KONSERVASI >< ...",
+              "opsi": {
+                "A": "Eksploitasi",
+                "B": "Perlindungan",
+                "C": "Pelestarian",
+                "D": "Perawatan",
+                "E": "Pemulihan"
+              },
+              "jawabanBenar": "A",
+              "pembahasan": "Konservasi adalah pemeliharaan dan perlindungan sesuatu secara teratur. Lawan katanya adalah Eksploitasi."
+            },
+            {
+              "id": "tbs-lpdp-2.verbal.q003",
+              "teks": "KULIT : SISIK = ATAP : ...",
+              "opsi": {
+                "A": "Rumah",
+                "B": "Genteng",
+                "C": "Plafon",
+                "D": "Dinding",
+                "E": "Kayu"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Sisik adalah lapisan penyusun luar kulit ikan/reptil; genteng adalah lapisan penyusun atap."
+            },
+            {
+              "id": "tbs-lpdp-2.verbal.q004",
+              "teks": "Semua laptop canggih memiliki memori cepat. Laptop A tidak memiliki memori cepat. Maka:",
+              "opsi": {
+                "A": "Laptop A adalah laptop canggih",
+                "B": "Laptop A bukan laptop canggih",
+                "C": "Sebagian memori cepat dimiliki laptop A",
+                "D": "Laptop canggih belum tentu cepat",
+                "E": "Tidak dapat disimpulkan"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Melalui modus tollens: jika p -> q, dan ~q, maka ~p (Laptop A bukan laptop canggih)."
+            },
+            {
+              "id": "tbs-lpdp-2.verbal.q005",
+              "teks": "RANCU sinonim dengan...",
+              "opsi": {
+                "A": "Teratur",
+                "B": "Kacau",
+                "C": "Jelas",
+                "D": "Lugas",
+                "E": "Tegas"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Rancu berarti campur aduk atau kacau."
+            }
+          ]
+        },
+        {
+          "id": "tbs-lpdp-2.kuantitatif",
+          "nama": "Penalaran Kuantitatif",
+          "durasiMenit": 3,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tbs-lpdp-2.kuant.q001",
+              "teks": "Deret: 2, 5, 10, 17, 26, ... Suku berikutnya:",
+              "opsi": {
+                "A": "35",
+                "B": "36",
+                "C": "37",
+                "D": "38",
+                "E": "39"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "Pola penambahan ganjil berurutan: +3, +5, +7, +9, +11. 26 + 11 = 37."
+            },
+            {
+              "id": "tbs-lpdp-2.kuant.q002",
+              "teks": "Sebuah barang dibeli seharga Rp100.000 dan dijual untung 15%. Harga jualnya adalah:",
+              "opsi": {
+                "A": "Rp110.000",
+                "B": "Rp115.000",
+                "C": "Rp120.000",
+                "D": "Rp125.000",
+                "E": "Rp130.000"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Harga jual = 100.000 * 1.15 = Rp115.000."
+            },
+            {
+              "id": "tbs-lpdp-2.kuant.q003",
+              "teks": "Jika luas persegi adalah 64 cm persegi, berapa kelilingnya?",
+              "opsi": {
+                "A": "16 cm",
+                "B": "24 cm",
+                "C": "32 cm",
+                "D": "40 cm",
+                "E": "48 cm"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "Sisi = akar(64) = 8 cm. Keliling = 4 * 8 = 32 cm."
+            },
+            {
+              "id": "tbs-lpdp-2.kuant.q004",
+              "teks": "Nilai dari 1/2 + 3/4 - 1/4 adalah:",
+              "opsi": {
+                "A": "1/2",
+                "B": "3/4",
+                "C": "1",
+                "D": "5/4",
+                "E": "3/2"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "1/2 + (3/4 - 1/4) = 1/2 + 2/4 = 1/2 + 1/2 = 1."
+            },
+            {
+              "id": "tbs-lpdp-2.kuant.q005",
+              "teks": "Sebuah tangki air terisi 40% dari kapasitasnya. Jika ditambahkan 30 liter, tangki menjadi 70% penuh. Kapasitas tangki adalah:",
+              "opsi": {
+                "A": "60 liter",
+                "B": "80 liter",
+                "C": "100 liter",
+                "D": "120 liter",
+                "E": "150 liter"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "Selisih persentase = 70% - 40% = 30%. 30% dari kapasitas = 30 liter. Maka total kapasitas = 100 liter."
+            }
+          ]
+        },
+        {
+          "id": "tbs-lpdp-2.pemecahan_masalah",
+          "nama": "Pemecahan Masalah",
+          "durasiMenit": 3,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tbs-lpdp-2.pm.q001",
+              "teks": "Pabrik memiliki 3 mesin A, B, C. Mesin A memproduksi 2x mesin B. Mesin C memproduksi 3x mesin B. Jika total produksi 600 unit, berapa produksi mesin B?",
+              "opsi": {
+                "A": "80",
+                "B": "100",
+                "C": "120",
+                "D": "150",
+                "E": "200"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "2B + B + 3B = 600 -> 6B = 600 -> B = 100 unit."
+            },
+            {
+              "id": "tbs-lpdp-2.pm.q002",
+              "teks": "Jika kebijakan fiskal diperketat dan inflasi menurun, langkah rasional pengusaha manufaktur adalah:",
+              "opsi": {
+                "A": "Menambah utang spekulatif berbunga tinggi",
+                "B": "Menjaga likuiditas kas dan meninjau ulang efisiensi inventaris",
+                "C": "Menggandakan kapasitas pabrik tanpa riset pasar",
+                "D": "Menghentikan seluruh promosi pemasaran",
+                "E": "Menjual seluruh aset lancar"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Menjaga likuiditas dan meninjau rantai pasok adalah langkah konservatif terukur di tengah pengetatan fiskal."
+            },
+            {
+              "id": "tbs-lpdp-2.pm.q003",
+              "teks": "Dalam sebuah perlombaan lari, Riko finis di depan Doni. Budi finis di depan Riko tetapi di belakang Anto. Urutan finis tercepat adalah:",
+              "opsi": {
+                "A": "Anto, Budi, Riko, Doni",
+                "B": "Anto, Riko, Budi, Doni",
+                "C": "Budi, Anto, Riko, Doni",
+                "D": "Riko, Anto, Budi, Doni",
+                "E": "Anto, Budi, Doni, Riko"
+              },
+              "jawabanBenar": "A",
+              "pembahasan": "Urutan: Anto > Budi > Riko > Doni."
+            },
+            {
+              "id": "tbs-lpdp-2.pm.q004",
+              "teks": "Pilihan rute tercepat logistik saat terjadi banjir di jalur utama adalah:",
+              "opsi": {
+                "A": "Menunggu banjir surut berhari-hari",
+                "B": "Mengalihkan ke jalur alternatif tol lingkar luar meski ada tarif tol tambahan",
+                "C": "Membatalkan seluruh pesanan pelanggan",
+                "D": "Memaksa melintasi genangan tinggi yang membahayakan armada",
+                "E": "Menyimpan barang di gudang tanpa memberitahu pelanggan"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Pengalihan ke rute alternatif menjaga SLA pengiriman tetap berjalan aman dan terprediksi."
+            },
+            {
+              "id": "tbs-lpdp-2.pm.q005",
+              "teks": "Organisasi menghadapi penurunan keterlibatan sukarelawan muda. Solusi berkelanjutan terbaik adalah:",
+              "opsi": {
+                "A": "Memberikan sanksi denda pada anggota pasif",
+                "B": "Membuat proyek kolaboratif berbasis digital dengan kepemimpinan terbuka",
+                "C": "Membatasi pendaftaran sukarelawan baru",
+                "D": "Menghentikan program pemberdayaan masyarakat",
+                "E": "Mengganti seluruh pengurus setiap minggu"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Pendekatan proyek digital kolaboratif relevan meningkatkan motivasi intrinsik generasi muda."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "packId": "utbk-snbt-pack",
+  "packVersion": 1,
+  "nama": "Simulasi UTBK SNBT 2026",
+  "kategori": {
+    "id": "utbk-snbt",
+    "nama": "UTBK SNBT"
+  },
+  "tes": [
+    {
+      "id": "utbk-1",
+      "nama": "Tryout UTBK SNBT Paket 1",
+      "subtes": [
+        {
+          "id": "utbk-1.penalaran_matematika",
+          "nama": "Penalaran Matematika",
+          "durasiMenit": 2,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "utbk-1.pm.q001",
+              "teks": "Jika f(x) = 2x + 3 dan g(x) = x^2 - 1, maka (g o f)(1) adalah:",
+              "opsi": {
+                "A": "22",
+                "B": "24",
+                "C": "25",
+                "D": "26",
+                "E": "28"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "f(1) = 2(1) + 3 = 5. (g o f)(1) = g(5) = 5^2 - 1 = 25 - 1 = 24."
+            },
+            {
+              "id": "utbk-1.pm.q002",
+              "teks": "Peluang munculnya jumlah mata dadu sama dengan 7 dari pelemparan dua buah dadu bermata enam adalah:",
+              "opsi": {
+                "A": "1/6",
+                "B": "1/12",
+                "C": "5/36",
+                "D": "7/36",
+                "E": "1/4"
+              },
+              "jawabanBenar": "A",
+              "pembahasan": "Pasangan jumlah 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) -> 6 kombinasi. Peluang = 6/36 = 1/6."
+            },
+            {
+              "id": "utbk-1.pm.q003",
+              "teks": "Sebuah segitiga siku-siku memiliki panjang alas 6 cm dan tinggi 8 cm. Panjang sisi miringnya adalah:",
+              "opsi": {
+                "A": "9 cm",
+                "B": "10 cm",
+                "C": "11 cm",
+                "D": "12 cm",
+                "E": "14 cm"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Tripel Pythagoras: c = akar(6^2 + 8^2) = akar(36 + 64) = akar(100) = 10 cm."
+            }
+          ]
+        },
+        {
+          "id": "utbk-1.literasi_indonesia",
+          "nama": "Literasi Bahasa Indonesia",
+          "durasiMenit": 2,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "utbk-1.lit.q001",
+              "teks": "Kalimat yang menggunakan ragam bahasa baku dan efektif adalah:",
+              "opsi": {
+                "A": "Buku tersebut telah dibaca oleh saya kemarin malam.",
+                "B": "Saya telah membaca buku tersebut kemarin malam.",
+                "C": "Buku yang mana telah saya baca kemarin malam.",
+                "D": "Buku itu dibaca sama saya kemarin malam.",
+                "E": "Kemarin malam buku itu sudah kebaca oleh saya."
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Bentuk aktif 'Saya telah membaca buku tersebut kemarin malam' adalah bentuk kalimat baku yang lugas dan efektif."
+            },
+            {
+              "id": "utbk-1.lit.q002",
+              "teks": "Kata serapan yang penulisannya sesuai PUEBI adalah:",
+              "opsi": {
+                "A": "Aktifitas",
+                "B": "Aktivitas",
+                "C": "Aktifitet",
+                "D": "Aktipitas",
+                "E": "Aktivitet"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Penulisan baku serapan bahasa Inggris 'activity' ke dalam bahasa Indonesia adalah 'aktivitas'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "utbk-2",
+      "nama": "Tryout UTBK SNBT Paket 2",
+      "subtes": [
+        {
+          "id": "utbk-2.penalaran_matematika",
+          "nama": "Penalaran Matematika",
+          "durasiMenit": 2,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "utbk-2.pm.q001",
+              "teks": "Jika log_2(x) = 5, maka nilai x adalah:",
+              "opsi": {
+                "A": "10",
+                "B": "25",
+                "C": "32",
+                "D": "64",
+                "E": "128"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "x = 2^5 = 32."
+            },
+            {
+              "id": "utbk-2.pm.q002",
+              "teks": "Jumlah n suku pertama deret aritmetika Sn = 2n^2 + n. Suku ke-3 (U3) adalah:",
+              "opsi": {
+                "A": "9",
+                "B": "11",
+                "C": "13",
+                "D": "15",
+                "E": "17"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "S3 = 2(9) + 3 = 21. S2 = 2(4) + 2 = 10. U3 = S3 - S2 = 21 - 10 = 11."
+            }
+          ]
+        },
+        {
+          "id": "utbk-2.literasi_indonesia",
+          "nama": "Literasi Bahasa Indonesia",
+          "durasiMenit": 2,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "utbk-2.lit.q001",
+              "teks": "Makna idiom 'berpangku tangan' adalah:",
+              "opsi": {
+                "A": "Bekerja sangat keras",
+                "B": "Tidak berbuat apa-apa",
+                "C": "Memohon pertolongan",
+                "D": "Memberi sedekah",
+                "E": "Beristirahat sejenak"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Berpangku tangan bermakna kiasan malas atau tidak melakukan apa-apa."
+            },
+            {
+              "id": "utbk-2.lit.q002",
+              "teks": "Kata yang berantonim dengan 'OPTIMIS' adalah:",
+              "opsi": {
+                "A": "Pesimis",
+                "B": "Realistis",
+                "C": "Skeptis",
+                "D": "Kritis",
+                "E": "Dinamis"
+              },
+              "jawabanBenar": "A",
+              "pembahasan": "Lawan kata optimis adalah pesimis."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

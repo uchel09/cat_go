@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "packId": "tiu-skd-pack",
+  "packVersion": 1,
+  "nama": "Simulasi TIU SKD CPNS 2026",
+  "kategori": {
+    "id": "tiu-skd",
+    "nama": "TIU SKD"
+  },
+  "tes": [
+    {
+      "id": "tiu-1",
+      "nama": "Simulasi TIU SKD Paket 1",
+      "subtes": [
+        {
+          "id": "tiu-1.numerik",
+          "nama": "Kemampuan Numerik",
+          "durasiMenit": 2,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tiu-1.num.q001",
+              "teks": "Jika 4 orang pekerja dapat menyelesaikan proyek dalam 12 hari, berapa hari yang dibutuhkan 6 orang pekerja?",
+              "opsi": {
+                "A": "6 hari",
+                "B": "8 hari",
+                "C": "9 hari",
+                "D": "10 hari",
+                "E": "11 hari"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Perbandingan berbalik nilai: (4 * 12) / 6 = 48 / 6 = 8 hari."
+            },
+            {
+              "id": "tiu-1.num.q002",
+              "teks": "Nilai dari 0,75 * 120 + 25 adalah:",
+              "opsi": {
+                "A": "105",
+                "B": "110",
+                "C": "115",
+                "D": "120",
+                "E": "125"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "3/4 * 120 = 90. 90 + 25 = 115."
+            }
+          ]
+        },
+        {
+          "id": "tiu-1.silogisme",
+          "nama": "Silogisme Logika",
+          "durasiMenit": 2,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tiu-1.silo.q001",
+              "teks": "Semua mamalia bernapas dengan paru-paru. Ikan paus adalah mamalia. Maka:",
+              "opsi": {
+                "A": "Ikan paus bernapas dengan insang",
+                "B": "Ikan paus bernapas dengan paru-paru",
+                "C": "Sebagian ikan paus bernapas dengan insang",
+                "D": "Semua yang bernapas dengan paru-paru adalah ikan paus",
+                "E": "Ikan paus bukan hewan air"
+              },
+              "jawabanBenar": "B",
+              "pembahasan": "Silogisme kategorik langsung: Ikan paus adalah mamalia, maka bernapas dengan paru-paru."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiu-2",
+      "nama": "Simulasi TIU SKD Paket 2",
+      "subtes": [
+        {
+          "id": "tiu-2.numerik",
+          "nama": "Kemampuan Numerik",
+          "durasiMenit": 2,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tiu-2.num.q001",
+              "teks": "Deret bilangan: 5, 10, 20, 40, ... Suku ke-5 adalah:",
+              "opsi": {
+                "A": "60",
+                "B": "70",
+                "C": "80",
+                "D": "90",
+                "E": "100"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "Pola geometri rasio 2: 40 * 2 = 80."
+            }
+          ]
+        },
+        {
+          "id": "tiu-2.analitis",
+          "nama": "Penalaran Analitis",
+          "durasiMenit": 2,
+          "stimulus": [],
+          "soal": [
+            {
+              "id": "tiu-2.ana.q001",
+              "teks": "Dina lebih tinggi dari Rani. Rani lebih tinggi dari Sinta. Siapakah yang paling pendek?",
+              "opsi": {
+                "A": "Dina",
+                "B": "Rani",
+                "C": "Sinta",
+                "D": "Dina dan Sinta",
+                "E": "Tidak dapat ditentukan"
+              },
+              "jawabanBenar": "C",
+              "pembahasan": "Urutan tinggi badan: Dina > Rani > Sinta. Yang paling pendek adalah Sinta."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
